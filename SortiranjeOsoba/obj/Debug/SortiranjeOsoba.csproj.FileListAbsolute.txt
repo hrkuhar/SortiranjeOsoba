@@ -1,0 +1,11 @@
+C:\Users\hrvojek\Desktop\VSITE\CSH\SortiranjeOsoba\SortiranjeOsoba\bin\Debug\SortiranjeOsoba.exe.config
+C:\Users\hrvojek\Desktop\VSITE\CSH\SortiranjeOsoba\SortiranjeOsoba\bin\Debug\SortiranjeOsoba.exe
+C:\Users\hrvojek\Desktop\VSITE\CSH\SortiranjeOsoba\SortiranjeOsoba\bin\Debug\SortiranjeOsoba.pdb
+C:\Users\hrvojek\Desktop\VSITE\CSH\SortiranjeOsoba\SortiranjeOsoba\obj\Debug\SortiranjeOsoba.csprojAssemblyReference.cache
+C:\Users\hrvojek\Desktop\VSITE\CSH\SortiranjeOsoba\SortiranjeOsoba\obj\Debug\SortiranjeOsoba.Properties.Resources.resources
+C:\Users\hrvojek\Desktop\VSITE\CSH\SortiranjeOsoba\SortiranjeOsoba\obj\Debug\SortiranjeOsoba.csproj.GenerateResource.cache
+C:\Users\hrvojek\Desktop\VSITE\CSH\SortiranjeOsoba\SortiranjeOsoba\obj\Debug\SortiranjeOsoba.csproj.CoreCompileInputs.cache
+C:\Users\hrvojek\Desktop\VSITE\CSH\SortiranjeOsoba\SortiranjeOsoba\obj\Debug\SortiranjeOsoba.exe
+C:\Users\hrvojek\Desktop\VSITE\CSH\SortiranjeOsoba\SortiranjeOsoba\obj\Debug\SortiranjeOsoba.pdb
+C:\Users\hrvojek\Desktop\VSITE\CSH\SortiranjeOsoba\SortiranjeOsoba\obj\Debug\SortiranjeOsoba.MainScreen.resources
+C:\Users\hrvojek\Desktop\VSITE\CSH\SortiranjeOsoba\SortiranjeOsoba\obj\Debug\SortiranjeOsoba.AddPerson.resources
