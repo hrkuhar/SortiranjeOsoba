@@ -28,7 +28,10 @@ namespace SortiranjeOsoba
             {
                 MessageBox.Show("Sva polja su obavezna!");
             }
-            else
+            else if (dateOfBirth.Value > DateTime.Now)
+            {
+                MessageBox.Show("Najkasniji mogući datum rođenja je današnji dan!");
+            }else
             {
                 Person person = new Person(firstName.Text, lastName.Text, gender.Text, dateOfBirth.Value, countryOfBirth.Text, placeOfBirth.Text);
                 service.AddPerson(person);

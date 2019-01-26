@@ -46,9 +46,9 @@
             // 
             // addButton
             // 
-            this.addButton.Location = new System.Drawing.Point(19, 387);
+            this.addButton.Location = new System.Drawing.Point(19, 332);
             this.addButton.Name = "addButton";
-            this.addButton.Size = new System.Drawing.Size(153, 51);
+            this.addButton.Size = new System.Drawing.Size(153, 33);
             this.addButton.TabIndex = 0;
             this.addButton.Text = "Dodaj";
             this.addButton.UseVisualStyleBackColor = true;
@@ -56,9 +56,9 @@
             // 
             // cancelButton
             // 
-            this.cancelButton.Location = new System.Drawing.Point(191, 387);
+            this.cancelButton.Location = new System.Drawing.Point(223, 332);
             this.cancelButton.Name = "cancelButton";
-            this.cancelButton.Size = new System.Drawing.Size(139, 51);
+            this.cancelButton.Size = new System.Drawing.Size(139, 33);
             this.cancelButton.TabIndex = 1;
             this.cancelButton.Text = "Odustani";
             this.cancelButton.UseVisualStyleBackColor = true;
@@ -68,14 +68,14 @@
             // 
             this.firstName.Location = new System.Drawing.Point(148, 29);
             this.firstName.Name = "firstName";
-            this.firstName.Size = new System.Drawing.Size(100, 22);
+            this.firstName.Size = new System.Drawing.Size(200, 22);
             this.firstName.TabIndex = 2;
             // 
             // lastName
             // 
-            this.lastName.Location = new System.Drawing.Point(148, 83);
+            this.lastName.Location = new System.Drawing.Point(148, 67);
             this.lastName.Name = "lastName";
-            this.lastName.Size = new System.Drawing.Size(100, 22);
+            this.lastName.Size = new System.Drawing.Size(200, 22);
             this.lastName.TabIndex = 3;
             // 
             // gender
@@ -84,9 +84,9 @@
             this.gender.Items.AddRange(new object[] {
             "M",
             "Ž"});
-            this.gender.Location = new System.Drawing.Point(148, 119);
+            this.gender.Location = new System.Drawing.Point(148, 112);
             this.gender.Name = "gender";
-            this.gender.Size = new System.Drawing.Size(121, 24);
+            this.gender.Size = new System.Drawing.Size(200, 24);
             this.gender.TabIndex = 4;
             // 
             // dateOfBirth
@@ -100,20 +100,20 @@
             // 
             this.countryOfBirth.Location = new System.Drawing.Point(148, 197);
             this.countryOfBirth.Name = "countryOfBirth";
-            this.countryOfBirth.Size = new System.Drawing.Size(100, 22);
+            this.countryOfBirth.Size = new System.Drawing.Size(200, 22);
             this.countryOfBirth.TabIndex = 6;
             // 
             // placeOfBirth
             // 
             this.placeOfBirth.Location = new System.Drawing.Point(148, 242);
             this.placeOfBirth.Name = "placeOfBirth";
-            this.placeOfBirth.Size = new System.Drawing.Size(100, 22);
+            this.placeOfBirth.Size = new System.Drawing.Size(200, 22);
             this.placeOfBirth.TabIndex = 7;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 32);
+            this.label1.Location = new System.Drawing.Point(75, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(34, 17);
             this.label1.TabIndex = 8;
@@ -122,7 +122,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 86);
+            this.label2.Location = new System.Drawing.Point(46, 67);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 17);
             this.label2.TabIndex = 9;
@@ -131,7 +131,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 126);
+            this.label3.Location = new System.Drawing.Point(69, 112);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(40, 17);
             this.label3.TabIndex = 10;
@@ -140,7 +140,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 163);
+            this.label4.Location = new System.Drawing.Point(12, 158);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(105, 17);
             this.label4.TabIndex = 11;
@@ -149,7 +149,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(16, 202);
+            this.label5.Location = new System.Drawing.Point(12, 197);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(105, 17);
             this.label5.TabIndex = 12;
@@ -158,7 +158,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(16, 247);
+            this.label6.Location = new System.Drawing.Point(16, 242);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(101, 17);
             this.label6.TabIndex = 13;
@@ -168,7 +168,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(407, 450);
+            this.ClientSize = new System.Drawing.Size(374, 394);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -183,6 +183,7 @@
             this.Controls.Add(this.firstName);
             this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.addButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "AddPerson";
             this.Text = "Dodaj osobu";
             this.ResumeLayout(false);

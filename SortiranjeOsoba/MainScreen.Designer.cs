@@ -35,19 +35,24 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(13, 13);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(836, 428);
+            this.dataGridView1.Size = new System.Drawing.Size(836, 460);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.ColumnHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_ColumnHeaderMouseClick);
             // 
             // addPersonButton
             // 
-            this.addPersonButton.Location = new System.Drawing.Point(680, 460);
+            this.addPersonButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.addPersonButton.Location = new System.Drawing.Point(681, 496);
             this.addPersonButton.Name = "addPersonButton";
-            this.addPersonButton.Size = new System.Drawing.Size(168, 75);
+            this.addPersonButton.Size = new System.Drawing.Size(168, 42);
             this.addPersonButton.TabIndex = 1;
             this.addPersonButton.Text = "Dodaj osobu";
             this.addPersonButton.UseVisualStyleBackColor = true;
@@ -55,10 +60,11 @@
             // 
             // MainScreen
             // 
-            this.ClientSize = new System.Drawing.Size(861, 547);
+            this.ClientSize = new System.Drawing.Size(861, 550);
             this.Controls.Add(this.addPersonButton);
             this.Controls.Add(this.dataGridView1);
             this.Name = "MainScreen";
+            this.Text = "Osobe";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
