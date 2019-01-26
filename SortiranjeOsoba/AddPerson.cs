@@ -31,7 +31,12 @@ namespace SortiranjeOsoba
             else if (dateOfBirth.Value > DateTime.Now)
             {
                 MessageBox.Show("Najkasniji mogući datum rođenja je današnji dan!");
-            }else
+            }
+            else if (gender.Text != "M" && gender.Text != "Ž")
+            {
+                MessageBox.Show("Dopuštene vrijednosti za spol su \"M\" i \"Ž\"");
+            }
+            else
             {
                 Person person = new Person(firstName.Text, lastName.Text, gender.Text, dateOfBirth.Value, countryOfBirth.Text, placeOfBirth.Text);
                 service.AddPerson(person);

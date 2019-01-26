@@ -16,6 +16,10 @@ namespace SortiranjeOsoba
         private PeopleService()
         {
             People = new BindingList<Person>();
+
+            People.Add(new Person("Ana", "Anić", "Ž", new DateTime(1990, 5, 5), "Hrvatska", "Zagreb"));
+            People.Add(new Person("Ivan", "Ivić", "M", new DateTime(1985, 6, 17), "Hrvatska", "Split"));
+            People.Add(new Person("Marko", "Markić", "M", new DateTime(1995, 10, 10), "Hrvatska", "Rijeka"));
         }
 
         public static PeopleService GetInstance()
